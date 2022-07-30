@@ -1,0 +1,77 @@
+<<<<<<<<<<<<<<_Mexer no Terminal_>>>>>>>>>>>>>>>>>>
+
+*dir = para poder listar.
+
+*cd = para navergar entre as pastas. 
+
+*cd .. = para retornar as pastas.
+
+*cd / = para entrar no repositorio C.
+
+*cls = limpa o terminal do winsows.
+
+*tecla TAB = completa a escrita automatico.
+
+*mkdir "nome desejado" = para criar pasta do lado é o nome que você 
+determinar na pasta.
+
+*echo "nome desejado" = printa no terminal o nome desejado.
+
+*echo "hello" > "hello.txt" = ou seja a chave busca o arquivo colocando
+ao lado dela "> hello.txt" caso não tenha arquivo, ele é criado 
+automaticamente.
+
+*del "nome da pasta" = comando para deletar tudo que tem dentro da pasta.
+
+*tecla seta para cima = navega entre os comandos já listados.
+
+*rmdir "workspace" /S /Q = comando para deletar a pasta "repositorio" 
+por completo.
+
+<<<<<<<<<<<<<_Git Bash/ Git/ GitHub_>>>>>>>>>>>>>>>
+
+*ls = listar arquivos
+
+*cd "nome da pasta"/ = entra na pasta 
+
+*git init = possibilitar que o Git comece a gerenciar e versionar
+o codigo. cria repositorio dentro do diretorio.
+
+*ls -a = demonstra itens ocultos na pasta.
+
+*git config --global user.email "email determinado" = cadastrar o email 
+no git, de preferencia igual o do github
+*git config --global user.name nome_determinado = cadastrar o nome 
+no git, de preferencia igual o do github
+*git config --global unset user.email = mudar o email que esta 
+cadastrado
+*git config --global unset user.name = mudar o nome que esta 
+cadastrado
+
+*git add * = mover tudo que foi modificado e adicionar ao staged
+
+*git status = comando que ajuda a monitorar status do arquivo.
+
+*mv Receitas.txt ./receitas/ = mover um arquivo para dentro de uma pasta
+
+*echo > README.md = criou um arquivo com o nome readme.md na pasta
+
+*git commit -m "uma mensagem de preferencia" = commitando determinado 
+arquivo
+
+*git config --list = mostra a lista de config dentro do git
+
+*git remote add origin "link do GitHub" = apontar o repositorio da 
+maquina local para o repositorio remoto.
+
+*git push origin master = comando para impurrar do repositorio local
+para o repositorio remoto
+
+*git pull origin master = comando para puxar o repositorio do GitHub, 
+para o repositorio local
+
+*git clone "link copiado do repositorio do GitHub" = comando para clonar
+codigo de um repositorio pronto do GitHub, para o repositorio local.
+
+*git remote -v = mostra quais repositorios do GitHub o arquivo esta
+apontando    
