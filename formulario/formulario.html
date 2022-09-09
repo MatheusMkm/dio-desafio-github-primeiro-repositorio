@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style type="text/css">
+    
+        div{
+            display: inline-block;
+        }
+        fieldset{
+            width: 25%;
+            background-color:#e2e2e2;
+        }
+        #form1{
+            margin-right:7px ;
+        }
+        h4{
+            text-align: center;
+        }
+    </style>
+</head>
+    <body>
+        <form>
+            <fieldset>
+                <legend id="compras"><label for="compras">Compras</label></legend>
+                <div id="form1">
+                    <h4><label for="produtos">Produtos</label></h4>
+                    <select name="aquario">
+                        <optgroup label="Aquários">
+                            <option value=" aquario 43l" id="aquario_43l"><label for="aquario_43l">Aquário 43L</label></optio>
+                            <option value="aquario 84l" id="aquario_84l"><label for="aquario_84l">Aquário 84L</label></option>
+                        </optgroup>
+                    </select>
+                    <input type="submit" value="+">
+                    <h4><label for="complementos">Complementos</label></h4>
+                    <p><input type="radio" name="movel+luminaria" value="movel+luminaria" id="movel+luminaria"><label for="movel+luminaria">Movél + Luminária</label></p>
+                    <p><input type="radio" name="luminaria" value="luminaria" id="luminaria"> <label for="luminaria">Luminária</label></p>
+                    <p><input type="radio" name="vidro" value="vidro"><label for="vidro">Só Vidro</label> </p>
+
+                    <input type="checkbox" name="entrega_como_presente" value="entrega_comopresente" id="entrega_como_presente"><label for="entrega_como_presente">Entrega como Presente </label>
+                    <br>
+                </div>
+                <div id="for2">
+                    <h4 id="lista_de_compras"><label for="lista_de_compras">Lista de Compras</label></h4>
+                    <textarea rows="13" cols="15"></textarea>
+                    <p><label for="valor_total">Valor Total: </label><input type="text" name="valortotal" size="2" id="valor_total"></p>
+                </div>
+            </fieldset>    
+        </form>    
+    </body>
+</html>
