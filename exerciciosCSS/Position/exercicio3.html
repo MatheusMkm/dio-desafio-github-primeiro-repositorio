@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Posicionamentos - HTML e CSS Básico</title>
+        <style type="text/css">
+            body{
+                width: 1024px;
+                height: 768px;
+                text-align: center;
+            }
+            
+            header, section, aside, footer{
+                background-color: darkgoldenrod;
+                border-radius: 15px;
+                -moz-border-radius: 15px;
+                -webkit-border-radius: 15ps;
+            }
+            header{
+                height: 20%;
+                margin: 0px 0px 10px 0px;
+            }
+            section{
+                float: left;
+                margin:0px 10px 10px 0px;
+                width: 80%;
+                height: 60%;
+            }
+            aside{
+                float: right;
+                width: 19%;
+                height: 55%;
+            }
+            footer{
+                clear:both;
+                height: 18%;
+                margin-bottom: 10px;
+            }
+            h1, p{
+                position: relative;
+                top: 35%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> cabeçalho</h1>
+        </header>
+        <section>
+            <h1> conteúdo</h1>
+            <p> (float left) </p>
+        </section>
+        <aside>
+            <h1> barra lateral</h1>
+            <p> (float right) </p>
+        </aside>
+        <footer>
+            <h1> rodapé </h1>
+        </footer>
+    </body>
+</html>
